@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81886F351E2FF822000B53AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81886F341E2FF822000B53AB /* AppDelegate.swift */; };
+		81886F371E2FF822000B53AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81886F361E2FF822000B53AB /* ViewController.swift */; };
+		81886F3A1E2FF822000B53AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81886F381E2FF822000B53AB /* Main.storyboard */; };
+		81886F3C1E2FF822000B53AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81886F3B1E2FF822000B53AB /* Assets.xcassets */; };
+		81886F3F1E2FF822000B53AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81886F3D1E2FF822000B53AB /* LaunchScreen.storyboard */; };
+		81886F4A1E2FF822000B53AB /* Homeless_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81886F491E2FF822000B53AB /* Homeless_AppTests.swift */; };
+		81886F551E2FF822000B53AB /* Homeless_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81886F541E2FF822000B53AB /* Homeless_AppUITests.swift */; };
+		81886F641E30046F000B53AB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81886F631E30046F000B53AB /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81886F461E2FF822000B53AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81886F291E2FF821000B53AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81886F301E2FF822000B53AB;
+			remoteInfo = "Homeless App";
+		};
+		81886F511E2FF822000B53AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81886F291E2FF821000B53AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81886F301E2FF822000B53AB;
+			remoteInfo = "Homeless App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81886F311E2FF822000B53AB /* Homeless App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homeless App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81886F341E2FF822000B53AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81886F361E2FF822000B53AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81886F391E2FF822000B53AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81886F3B1E2FF822000B53AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81886F3E1E2FF822000B53AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81886F401E2FF822000B53AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81886F451E2FF822000B53AB /* Homeless AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homeless AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81886F491E2FF822000B53AB /* Homeless_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeless_AppTests.swift; sourceTree = "<group>"; };
+		81886F4B1E2FF822000B53AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81886F501E2FF822000B53AB /* Homeless AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homeless AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81886F541E2FF822000B53AB /* Homeless_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeless_AppUITests.swift; sourceTree = "<group>"; };
+		81886F561E2FF822000B53AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81886F631E30046F000B53AB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81886F2E1E2FF822000B53AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81886F641E30046F000B53AB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81886F421E2FF822000B53AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81886F4D1E2FF822000B53AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81886F281E2FF821000B53AB = {
+			isa = PBXGroup;
+			children = (
+				81886F331E2FF822000B53AB /* Homeless App */,
+				81886F481E2FF822000B53AB /* Homeless AppTests */,
+				81886F531E2FF822000B53AB /* Homeless AppUITests */,
+				81886F321E2FF822000B53AB /* Products */,
+				81886F621E30046F000B53AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81886F321E2FF822000B53AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81886F311E2FF822000B53AB /* Homeless App.app */,
+				81886F451E2FF822000B53AB /* Homeless AppTests.xctest */,
+				81886F501E2FF822000B53AB /* Homeless AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81886F331E2FF822000B53AB /* Homeless App */ = {
+			isa = PBXGroup;
+			children = (
+				81886F341E2FF822000B53AB /* AppDelegate.swift */,
+				81886F361E2FF822000B53AB /* ViewController.swift */,
+				81886F381E2FF822000B53AB /* Main.storyboard */,
+				81886F3B1E2FF822000B53AB /* Assets.xcassets */,
+				81886F3D1E2FF822000B53AB /* LaunchScreen.storyboard */,
+				81886F401E2FF822000B53AB /* Info.plist */,
+			);
+			path = "Homeless App";
+			sourceTree = "<group>";
+		};
+		81886F481E2FF822000B53AB /* Homeless AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				81886F491E2FF822000B53AB /* Homeless_AppTests.swift */,
+				81886F4B1E2FF822000B53AB /* Info.plist */,
+			);
+			path = "Homeless AppTests";
+			sourceTree = "<group>";
+		};
+		81886F531E2FF822000B53AB /* Homeless AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81886F541E2FF822000B53AB /* Homeless_AppUITests.swift */,
+				81886F561E2FF822000B53AB /* Info.plist */,
+			);
+			path = "Homeless AppUITests";
+			sourceTree = "<group>";
+		};
+		81886F621E30046F000B53AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81886F631E30046F000B53AB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81886F301E2FF822000B53AB /* Homeless App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81886F591E2FF822000B53AB /* Build configuration list for PBXNativeTarget "Homeless App" */;
+			buildPhases = (
+				81886F2D1E2FF822000B53AB /* Sources */,
+				81886F2E1E2FF822000B53AB /* Frameworks */,
+				81886F2F1E2FF822000B53AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homeless App";
+			productName = "Homeless App";
+			productReference = 81886F311E2FF822000B53AB /* Homeless App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81886F441E2FF822000B53AB /* Homeless AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81886F5C1E2FF822000B53AB /* Build configuration list for PBXNativeTarget "Homeless AppTests" */;
+			buildPhases = (
+				81886F411E2FF822000B53AB /* Sources */,
+				81886F421E2FF822000B53AB /* Frameworks */,
+				81886F431E2FF822000B53AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81886F471E2FF822000B53AB /* PBXTargetDependency */,
+			);
+			name = "Homeless AppTests";
+			productName = "Homeless AppTests";
+			productReference = 81886F451E2FF822000B53AB /* Homeless AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81886F4F1E2FF822000B53AB /* Homeless AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81886F5F1E2FF822000B53AB /* Build configuration list for PBXNativeTarget "Homeless AppUITests" */;
+			buildPhases = (
+				81886F4C1E2FF822000B53AB /* Sources */,
+				81886F4D1E2FF822000B53AB /* Frameworks */,
+				81886F4E1E2FF822000B53AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81886F521E2FF822000B53AB /* PBXTargetDependency */,
+			);
+			name = "Homeless AppUITests";
+			productName = "Homeless AppUITests";
+			productReference = 81886F501E2FF822000B53AB /* Homeless AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81886F291E2FF821000B53AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sarah Ward";
+				TargetAttributes = {
+					81886F301E2FF822000B53AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5BFV3SMA2P;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					81886F441E2FF822000B53AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81886F301E2FF822000B53AB;
+					};
+					81886F4F1E2FF822000B53AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81886F301E2FF822000B53AB;
+					};
+				};
+			};
+			buildConfigurationList = 81886F2C1E2FF821000B53AB /* Build configuration list for PBXProject "Homeless App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81886F281E2FF821000B53AB;
+			productRefGroup = 81886F321E2FF822000B53AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81886F301E2FF822000B53AB /* Homeless App */,
+				81886F441E2FF822000B53AB /* Homeless AppTests */,
+				81886F4F1E2FF822000B53AB /* Homeless AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81886F2F1E2FF822000B53AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81886F3F1E2FF822000B53AB /* LaunchScreen.storyboard in Resources */,
+				81886F3C1E2FF822000B53AB /* Assets.xcassets in Resources */,
+				81886F3A1E2FF822000B53AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81886F431E2FF822000B53AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81886F4E1E2FF822000B53AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81886F2D1E2FF822000B53AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81886F371E2FF822000B53AB /* ViewController.swift in Sources */,
+				81886F351E2FF822000B53AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81886F411E2FF822000B53AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81886F4A1E2FF822000B53AB /* Homeless_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81886F4C1E2FF822000B53AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81886F551E2FF822000B53AB /* Homeless_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81886F471E2FF822000B53AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81886F301E2FF822000B53AB /* Homeless App */;
+			targetProxy = 81886F461E2FF822000B53AB /* PBXContainerItemProxy */;
+		};
+		81886F521E2FF822000B53AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81886F301E2FF822000B53AB /* Homeless App */;
+			targetProxy = 81886F511E2FF822000B53AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81886F381E2FF822000B53AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81886F391E2FF822000B53AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81886F3D1E2FF822000B53AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81886F3E1E2FF822000B53AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81886F571E2FF822000B53AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81886F581E2FF822000B53AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81886F5A1E2FF822000B53AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5BFV3SMA2P;
+				INFOPLIST_FILE = "Homeless App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SazzleBurger.Homeless-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		81886F5B1E2FF822000B53AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5BFV3SMA2P;
+				INFOPLIST_FILE = "Homeless App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SazzleBurger.Homeless-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		81886F5D1E2FF822000B53AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Homeless AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SazzleBurger.Homeless-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homeless App.app/Homeless App";
+			};
+			name = Debug;
+		};
+		81886F5E1E2FF822000B53AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Homeless AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SazzleBurger.Homeless-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homeless App.app/Homeless App";
+			};
+			name = Release;
+		};
+		81886F601E2FF822000B53AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Homeless AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SazzleBurger.Homeless-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Homeless App";
+			};
+			name = Debug;
+		};
+		81886F611E2FF822000B53AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Homeless AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SazzleBurger.Homeless-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Homeless App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81886F2C1E2FF821000B53AB /* Build configuration list for PBXProject "Homeless App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81886F571E2FF822000B53AB /* Debug */,
+				81886F581E2FF822000B53AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81886F591E2FF822000B53AB /* Build configuration list for PBXNativeTarget "Homeless App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81886F5A1E2FF822000B53AB /* Debug */,
+				81886F5B1E2FF822000B53AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81886F5C1E2FF822000B53AB /* Build configuration list for PBXNativeTarget "Homeless AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81886F5D1E2FF822000B53AB /* Debug */,
+				81886F5E1E2FF822000B53AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81886F5F1E2FF822000B53AB /* Build configuration list for PBXNativeTarget "Homeless AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81886F601E2FF822000B53AB /* Debug */,
+				81886F611E2FF822000B53AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81886F291E2FF821000B53AB /* Project object */;
+}
