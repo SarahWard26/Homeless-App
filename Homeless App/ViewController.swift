@@ -30,11 +30,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         let region = MKCoordinateRegion(center: locationManager.location!.coordinate, span: span)
         
         map.setRegion(region, animated: true)
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = CLLocationCoordinate2D (latitude: 51.5714855, longitude: -0.1446121)
-        annotation.title = "St Mungos"
-        annotation.subtitle = "55 Cholmeley Park - N6 5EH"
-        map.addAnnotation(annotation)
+        
+        let annotation1 = MKPointAnnotation()
+        annotation1.coordinate = CLLocationCoordinate2D (latitude: 51.5714855, longitude: -0.1446121)
+        annotation1.title = "St Mungos"
+        annotation1.subtitle = "55 Cholmeley Park - N6 5EH"
+        
+        let annotation2 = MKPointAnnotation()
+        annotation2.coordinate = CLLocationCoordinate2D (latitude: 51.5184963, longitude: -0.1336299    )
+        annotation2.title = "Booth House"
+        annotation2.subtitle = "153-175 Whitechapel Rd, London E1 1DN"
+        
+        map.addAnnotation(annotation1)
+        map.addAnnotation(annotation2)
         map.delegate = self
         //        map.setCenter(map.userLocation.location!.coordinate, animated: true)
     }
