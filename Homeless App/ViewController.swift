@@ -31,6 +31,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         
         map.setRegion(region, animated: true)
         
+        let shelters : [[String: Any]] = [["Name": "St Mungos", "Address": "55 Cholmeley Park, London N6 5EH", "Coordinate": CLLocationCoordinate2D (latitude: 51.5714855, longitude: -0.1446121)], ["Name": "Booth House", "Address": "153-175 Whitechapel Rd, London E1 1DN", "Coordinate": CLLocationCoordinate2D (latitude: 51.5184963, longitude: -0.1336299)]]
+        for shelter in shelters{
+            let annotation = MKPointAnnotation()
+            annotation.coordinate = shelter["Coordinate"] as! CLLocationCoordinate2D
+            annotation.title = shelter["Name"] as! String?
+            annotation.subtitle = shelter["Address"] as! String?
+        
+           map.addAnnotation(annotation)
+        }
+        
+        /*
         let annotation1 = MKPointAnnotation()
         annotation1.coordinate = CLLocationCoordinate2D (latitude: 51.5714855, longitude: -0.1446121)
         annotation1.title = "St Mungos"
@@ -115,6 +126,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         map.addAnnotation(annotation12)
         map.addAnnotation(annotation13)
         map.addAnnotation(annotation14)
+        */
         
         map.delegate = self
         //        map.setCenter(map.userLocation.location!.coordinate, animated: true)
